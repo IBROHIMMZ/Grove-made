@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+.first-section {
+    background-image: url('./images/first-section-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.E-section {
+    background-image: url('./images/section-center-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.I-section {
+    margin-bottom: 60px;
+}
+
+.J-section .container {
+    background-color: #9AA8B1;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tenth-section {
+    margin-bottom: 39px;
+    margin-top: 60px;
+}
+
+.fs-block_main {
+    color: #A0A0A0;
+}
+
+.ftr-block {
+    width: 82px;
+    height: 82px;
+}
+
+.footer {
+    background-color: #F9F9F9;
+}
+
+.mean-block {
+    row-gap: 15px;
+}
+
+.link {
+    list-style: none;
+    margin-bottom: 84px;
+}
+.link-item {
+    width: 160px;
+}
+.link-item a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.sus__btn {
+    display: none;
+    position: fixed;
+    bottom: 26%;
+    right: 6%;
+    height: 82px;
+    width: 82px !important;
+    transition: all .6s;
+}
+.sus__btn:hover {
+    color: lawngreen;
+}
+
+.sus__btn.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fk-block_main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.8px;
+
+color: #000000;
+}
+.fk-block_main a {
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (max-width:1200px) {
+    .images {
+        max-width: 990px;
+        width: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .th-btn {
+        margin-bottom: 30px;
+    }
+    .ipad {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media (max-width:460px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:350px) {
+    .ftr-info {
+        gap: 5px;
+    }
+    .collapse {
+        gap: 10px;
+    }
+}
+@media (max-width:325px) {
+    .sixth-section {
+        height: 45vh;
+    }
+    .first-section {
+        height: 45vh;
+    }
+    .tenth-section .container {
+        height: 310px;
+    }
+}
