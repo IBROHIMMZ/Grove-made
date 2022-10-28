@@ -69,6 +69,7 @@
 }
 
 .sus__btn {
+    z-index: 10;
     display: none;
     position: fixed;
     bottom: 26%;
@@ -101,6 +102,12 @@ color: #000000;
     text-decoration: none;
     color: #000000;
 }
+.row {
+    row-gap: 27px;
+}
+.sus__btn{
+    z-index: 10px;
+}
 
 @media (max-width:1200px) {
     .images {
@@ -118,8 +125,8 @@ color: #000000;
     }
 }
 @media (max-width:460px) {
-    .footer {
-        flex-wrap: wrap;
+    .footer__block {
+        display: none;
     }
 }
 @media (max-width:350px) {
